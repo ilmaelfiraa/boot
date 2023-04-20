@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boot - Landing Page</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Material Symbol Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@300" rel="stylesheet" />
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- General CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/nav-brand-light.svg" alt="brand">
+            </a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="material-symbols-rounded fs-1 text-white">
+                    drag_handle
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto me-5">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+                <div class="ms-auto">
+                    <a href="#" class="btn btn-white d-block d-md-inline-block">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- Hero -->
+    <div class="hero py-5 bg-between" style="background-image: url('img/left-illustration-hero.svg'), url('img/right-illustration-hero.svg'), url('img/mountain-bg.svg');">
+        <!-- Image Hero (Mobile) -->
+        <img src="img/right-illustration-hero.svg" alt="hero-mobile" class="w-100 mb-5 d-lg-none">
+        <div class="container text-center content">
+            <h1 class="hero-headline">Expert Marketing Services</h1>
+            <p class="desc-headline pt-16">Our team of experts will help improve your brand and get results</p>
+        </div>
+    </div>
+    <!-- /Hero -->
+
+    <!-- Overview -->
+    <section class="overview">
+        <div class="container">
+            <div class="card border-0">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="d-inline-flex align-items-center justify-content-center border-secondary-icon rounded-circle" style="width: 54px; height: 54px;">
+                                <span class="material-symbols-rounded fs-4">
+                                    assignment_turned_in
+                                </span>
+                            </div>
+                            <div class="d-inline-flex align-middle">
+                                <div class="d-block">
+                                    <h2>98+</h2>
+                                    <p>Project done</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="d-inline-flex align-items-center justify-content-center border-secondary-icon rounded-circle" style="width: 54px; height: 54px;">
+                                <span class="material-symbols-rounded fs-4">
+                                    group_add
+                                </span>
+                            </div>
+                            <div class="d-inline-flex align-middle">
+                                <div class="d-block">
+                                    <h2>72+</h2>
+                                    <p>Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="d-inline-flex align-items-center justify-content-center border-secondary-icon rounded-circle" style="width: 54px; height: 54px;">
+                                <span class="material-symbols-rounded fs-4">
+                                    apartment
+                                </span>
+                            </div>
+                            <div class="d-inline-flex align-middle">
+                                <div class="d-block">
+                                    <h2>80+</h2>
+                                    <p>Partners</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="d-inline-flex align-items-center justify-content-center border-secondary-icon rounded-circle" style="width: 54px; height: 54px;">
+                                <span class="material-symbols-rounded fs-4">
+                                    category
+                                </span>
+                            </div>
+                            <div class="d-inline-flex align-middle">
+                                <div class="d-block">
+                                    <h2>25+</h2>
+                                    <p>Product</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Overview -->
+
+    <!-- Project -->
+    <section class="project">
+        <div class="container">
+            <h1 class="header-section text-center pt-200 mb-150">selected project</h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/project/project-1.png" alt="project" class="w-100">
+                    <div class="elements-right">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-e1right rounded-circle align-middle" style="width: 60px; height: 60px;">
+                            <span class="material-symbols-rounded fs-4">music_note</span>
+                        </div>
+                        <div class="d-inline-flex align-items-center justify-content-center bg-e2right rounded-circle align-middle" style="width: 100px; height: 100px;">
+                            <span class="material-symbols-rounded" style="font-size: 55px;">graphic_eq</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-section">
+                    <h2 class="title-section ms-5">Discover Your New Favorite Music with Sopy</h2>
+                    <div class="desc-section ms-5 pt-25">Discover new music adn stream your favorites with sopy. Our app offer a vast library of song and personalized recommendations. Download now!</div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center pt-200">
+                <div class="col-lg-6 col-md-12 text-section">
+                    <h2 class="title-section me-5">Blog word, a news app without ads</h2>
+                    <div class="desc-section me-5 pt-25">Easy manage your blog and connect with readers with Blog Word. Our app provides a simpleand user friendly platform to create, manage and share your content.</div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/project/project-2.png" alt="project" class="w-100 blog-img">
+                    <div class="elements-left">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-e2left rounded-circle align-middle" style="width: 100px; height: 100px;">
+                            <span class="material-symbols-rounded" style="font-size: 55px;">feed</span>
+                        </div>
+                        <div class="d-inline-flex align-items-center justify-content-center bg-e1left rounded-circle align-middle" style="width: 60px; height: 60px;">
+                            <span class="material-symbols-rounded fs-4">rss_feed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-200">
+                <a href="#" class="btn btn-outline-primary">View all project</a>
+            </div>
+        </div>
+    </section>
+    <!-- /Project -->
+
+    <!-- Services -->
+    <section class="services pt-200 pb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <h2 class="title-section">Our Services</h2>
+                    <p class="desc-section pt-25">Get expert help for your bussiness with Boot. Our team offers custom solutions for branding, marketing, web development and more. Contact us for success.</p>
+                    <div class="pt-25">
+                        <a href="#" class="btn btn-primary mb-5">Explore our work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ms-auto">
+                    <div class="item-bd item-services-primary d-flex align-items-center">
+                        <div class="text-cips">
+                            <h5 class="name-services mt-3">UI/UX Design</h5>
+                            <p class="desc-services">Build height quality design</p>
+                        </div>
+                        <div class="icon-cips ms-auto"></div>
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white border-icon-primary ms-auto shadow rounded-pill" style="width: 73px; height: 73px;">
+                            <span class="material-symbols-rounded fs-4">chevron_right</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="item-bd item-services-warning d-flex align-items-center mt-3">
+                        <div class="text-cips">
+                            <h5 class="name-services mt-3">Web Apps</h5>
+                            <p class="desc-services">Build good quality web apps</p>
+                        </div>
+                        <div class="icon-cips ms-auto"></div>
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white border-icon-warning ms-auto shadow rounded-pill" style="width: 73px; height: 73px;">
+                            <span class="material-symbols-rounded fs-4">chevron_right</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="item-bd item-services-secondary d-flex align-items-center mt-3">
+                        <div class="text-cips">
+                            <h5 class="name-services mt-3">Mobile Apps</h5>
+                            <p class="desc-services">Build good quality mobile apps</p>
+                        </div>
+                        <div class="icon-cips ms-auto"></div>
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white border-icon-secondary ms-auto shadow rounded-pill" style="width: 73px; height: 73px;">
+                            <span class="material-symbols-rounded fs-4">chevron_right</span>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="item-bd item-services-success d-flex align-items-center mt-3">
+                        <div class="text-cips">
+                            <h5 class="name-services mt-3">Graphic Design</h5>
+                            <p class="desc-services">Build height quality design</p>
+                        </div>
+                        <div class="icon-cips ms-auto"></div>
+                        <a href="#" class="text-decoration-none">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-white border-icon-success ms-auto shadow rounded-pill" style="width: 73px; height: 73px;">
+                            <span class="material-symbols-rounded fs-4">chevron_right</span>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Services -->
+
+    <!-- Footer Section -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
